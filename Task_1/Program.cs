@@ -1,3 +1,5 @@
-﻿int a = 5;
-int b = 2;
-Console.WriteLine("5^2 = " + Math.Pow(a, b));
+﻿System.Console.Write("Число: ");
+int a = int.Parse(Console.ReadLine());
+System.Console.Write("Степень: ");
+int b = int.Parse(Console.ReadLine());;
+Console.WriteLine($"{a}^{b} = " + Math.Pow(a, b));
